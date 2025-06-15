@@ -1,0 +1,61 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+
+.login-container{
+  padding: 40px 10%;
+  align-items: center;
+  width: 60%;
+  margin: 20px auto;
+  border-style: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  height: 70vh;
+  margin-top: 5%;
+  background-color: whitesmoke;
+  align-content: center;
+  }
+
+.input-container{
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 4%;
+
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+input[type=password] {
+  margin-top: -50px;
+}
+
+.button{
+border-style: none;
+border-radius: 12px;
+background-color: grey;
+padding: 8px 40px;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+text-decoration: none;
+color: white;
+margin-left: 15px;
+}
+
+.button:hover{
+  background-color: black
+}
