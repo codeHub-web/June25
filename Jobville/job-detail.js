@@ -1,4 +1,3 @@
-//gets values from jobPosts OBJECT in job-data.js
 document.addEventListener("DOMContentLoaded", function() {
     const urlParams = new URLSearchParams(window.location.search);
     const title = urlParams.get("title");
@@ -7,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const experience = urlParams.get("experience");
     const closingDate = urlParams.get("closingDate");
 
-    //communicates with job-detail.html template and sets values from job-data.js to the empty template container
     document.getElementById("job-title").innerText = title;
     document.getElementById("job-location").innerText = jobLocation;
     document.getElementById("job-company").innerText = company;
@@ -16,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
 
-    // Find job description from jobPosts
     const job = jobPosts.find(job => job.title === title);
     document.getElementById("job-description").innerText = job ? job.description : "No description available.";
     if (job){
