@@ -7,7 +7,7 @@ This repository contains two main components:
 1. **Portfolio Website**  
    A personal portfolio site showcasing information about me, my projects, and contact details.
 
-2. **Job Portal**  
+2. **Job Portal Website**  
    An integrated job application platform accessible directly from the portfolio.
 
 ---
